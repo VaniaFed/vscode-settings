@@ -1,0 +1,122 @@
+{
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "workbench.iconTheme": "material-icon-theme",
+  "git.autofetch": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "git.confirmSync": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.detectIndentation": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "explorer.confirmDragAndDrop": false,
+  // "editor.folding": false,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showExpandedAbbreviation": "never",
+
+  "debug.toolBarLocation": "hidden",
+  "debug.focusWindowOnBreak": false,
+  "debug.showInlineBreakpointCandidates": false,
+  "debug.showBreakpointsInOverviewRuler": false,
+
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.scrollBeyondLastLine": true,
+  "editor.glyphMargin": false,
+  "workbench.layoutControl.enabled": false,
+  "editor.fontLigatures": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.compactFolders": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "files.autoSave": "onFocusChange",
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": ["css", "scss"],
+  "eslint.validate": ["javascript"],
+  "autoSnippet.snippets": [
+    { "pattern": "**/props.ts", "snippet": "props-tmp" },
+    { "pattern": "**/index.ts", "snippet": "react-typescript-index-tmp" },
+    {
+      "pattern": "**/*.stories.tsx",
+      "snippet": "react-typescript-stories-tmp"
+    },
+    { "pattern": "**/*.tsx", "snippet": "react-typescript-component-tmp" },
+    {
+      "pattern": "**/*.module.scss",
+      "snippet": "react-typescript-scss-module-tmp"
+    },
+    {
+      "pattern": "**/*.vue",
+      "snippet": "create-component"
+    }
+  ],
+  "[scss]": {
+    "editor.suggest.insertMode": "replace"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "cSpell.language": "en,ru",
+  "workbench.productIconTheme": "ic-drkryz-thm",
+  "cSpell.userWords": [
+    "autodocs",
+    "hookform",
+    "Kinopoisk",
+    "nextjs",
+    "nitse",
+    "nums",
+    "Proxying",
+    "reduxjs",
+    "reduxx",
+    "signin",
+    "signout",
+    "signup",
+    "stylelint",
+    "stylelintrc",
+    "tsc",
+    "vaniafed",
+    "vkontakte",
+    "заюзать",
+    "инстанса"
+  ],
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "editor.lineNumbers": "relative",
+  "diffEditor.ignoreTrimWhitespace": false
+}

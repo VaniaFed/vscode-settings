@@ -1,0 +1,30 @@
+{
+  "Media desktop": {
+    "prefix": "desktop",
+    "body": ["@include media-desktop {", "    $1", "}"]
+  },
+  "Media laptop": {
+    "prefix": "laptop",
+    "body": ["@include media-laptop {", "    $1", "}"]
+  },
+  "Media tablet": {
+    "prefix": "tablet",
+    "body": ["@include media-tablet {", "    $1", "}"]
+  },
+  "Media mobile": {
+    "prefix": "mobile",
+    "body": ["@include media-mobile {", "    $1", "}"]
+  },
+  "react-typescript-scss-module-tmp": {
+    "prefix": "react-typescript-scss-module-tmp",
+    "body": [
+      "@import '/src/utils/variables';",
+      "@import '/src/utils/media';",
+      "",
+      ".$TM_FILENAME_BASE {",
+      "\t$2",
+      "}",
+      ""
+    ]
+  }
+}

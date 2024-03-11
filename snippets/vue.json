@@ -1,0 +1,22 @@
+{
+  "create-component": {
+    "prefix": "cc",
+    "body": [
+      "<script>",
+      "export default {",
+      "  props: {",
+      "    $3",
+      "  },",
+      "  components: {",
+      "    $4",
+      "  },",
+      "};",
+      "</script>",
+      "",
+      "<template>$1</template>",
+      "",
+      "<style scoped lang=\"scss\">$2</style>"
+    ],
+    "description": "Create component"
+  }
+}
